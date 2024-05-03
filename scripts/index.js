@@ -44,8 +44,6 @@ const cardsFormHandler = (event) => {
     name: namePlace.value,
     link: placeImg.value,
   });
-  formAdd.reset();
-  closePopup(popupAdd);
 };
 
 
